@@ -8,9 +8,9 @@ namespace Tihi
 {
     internal class Salad: Food
     {
-        public override int value()
+        public override int Value()
         {
-            return base.value();
+            return base.Value();
         }
     }
 }

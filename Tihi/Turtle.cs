@@ -17,7 +17,7 @@ namespace Tihi
             this.fedLevel = fedLevel;
         }
 
-        public void ertek()
+        public void Ertek()
         {
             Console.WriteLine("Boldogság : " +this.happiness);
             Console.WriteLine("jóllakottság : " + this.fedLevel);
@@ -29,16 +29,16 @@ namespace Tihi
 
             if (fedLevel<500)
             {
-                fedLevel += food.value();
-                happiness += food.value() * 2;
+                fedLevel += food.Value();
+                happiness += food.Value() * 2;
             }
             else if (fedLevel > 500)
             {
-                fedLevel += food.value();
-                happiness -= food.value() * 2;
+                fedLevel += food.Value();
+                happiness -= food.Value() * 2;
             }
             else if(fedLevel == 500)
-                fedLevel += food.value();
+                fedLevel += food.Value();
         }
     }
 }

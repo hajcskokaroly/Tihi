@@ -12,14 +12,14 @@ namespace Tihi
         public Crab(int size)
         {
             if (size >10||size<1)
-                Console.WriteLine("ez nem is rák! mit akarsz megetetni velem?");
+                Console.WriteLine("Ez nem is rák! Mit akarsz megetetni velem?");
             else
                 this.size = size;
         }
 
-        public override int value()
+        public override int Value()
         {
-            return size*base.value();
+            return size*base.Value();
         }
     }
 }

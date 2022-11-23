@@ -8,6 +8,6 @@ namespace Tihi
 {
     abstract class Food
     {
-        public virtual int value() { return 10; }
+        public virtual int Value() { return 10; }
     }
 }

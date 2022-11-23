@@ -22,10 +22,10 @@ namespace Tihi
             for (int i = 0; i < kaja.Length; i++)
                 tihi.Eat(kaja[i]);
 
-
+            
             Console.WriteLine();
-            Console.WriteLine("a végső értékei a teknősnek:");
-            tihi.ertek();
+            Console.WriteLine("A végső értékei a teknősnek:");
+            tihi.Ertek();
             Console.ReadKey();
 
         }
